@@ -1,0 +1,15 @@
+{
+  "title": "ViCare · Hệ thống giám sát bệnh nhân",
+  "description": "Dashboard giám sát bệnh nhân không tiếp xúc bằng camera nhiệt L_CAS và IMVIA-FIR.",
+  "language": "vi",
+  "icons": {
+    "icon": "/logo-vicare.png"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
