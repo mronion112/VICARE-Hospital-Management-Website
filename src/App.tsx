@@ -125,7 +125,7 @@ function Sidebar({ page, navigate }: { page: Page; navigate: (p: Page) => void }
         <div style={{ color: '#1565C0', fontFamily: "'DM Sans', sans-serif", fontSize: 22, fontWeight: 700, letterSpacing: '-0.02em', lineHeight: 1 }}>
           Y NHÃN
         </div>
-        <div className="text-slate-400 mt-1" style={{ fontSize: 11, letterSpacing: '0.04em' }}>by ViCare</div>
+        <div className="text-slate-400 mt-1" style={{ fontSize: 11, letterSpacing: '0.04em' }}>by VICARE</div>
       </div>
 
       <nav className="flex-1 px-3 py-4">
@@ -246,7 +246,7 @@ function LoginPage({ onLogin }: { onLogin: () => void }) {
       >
         <div>
           <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 26, fontWeight: 700, color: '#fff', letterSpacing: '-0.02em' }}>Y NHÃN</div>
-          <div className="text-blue-200 mt-1" style={{ fontSize: 12, letterSpacing: '0.04em' }}>by ViCare</div>
+          <div className="text-blue-200 mt-1" style={{ fontSize: 12, letterSpacing: '0.04em' }}>by VICARE</div>
         </div>
 
         <div className="flex-1 flex items-center justify-center py-8">
@@ -266,9 +266,6 @@ function LoginPage({ onLogin }: { onLogin: () => void }) {
             <rect x="128" y="232" width="78" height="30" rx="6" fill="rgba(255,255,255,0.1)" />
             <text x="140" y="245" fill="rgba(255,255,255,0.45)" fontSize="7" fontFamily="monospace">RESP</text>
             <text x="140" y="256" fill="white" fontSize="11" fontWeight="bold" fontFamily="monospace">17/min</text>
-            <rect x="222" y="232" width="78" height="30" rx="6" fill="rgba(255,255,255,0.1)" />
-            <text x="234" y="245" fill="rgba(255,255,255,0.45)" fontSize="7" fontFamily="monospace">HR</text>
-            <text x="234" y="256" fill="white" fontSize="11" fontWeight="bold" fontFamily="monospace">72 BPM</text>
           </svg>
         </div>
 
@@ -276,9 +273,6 @@ function LoginPage({ onLogin }: { onLogin: () => void }) {
           <div className="text-white font-semibold text-lg leading-snug" style={{ fontFamily: "'DM Sans',sans-serif" }}>
             Giám sát bệnh nhân<br />không tiếp xúc
           </div>
-          <p className="text-blue-200 text-sm mt-2 leading-relaxed">
-            Theo dõi chỉ số sinh tồn bằng camera nhiệt và hồng ngoại. Không cần gắn cảm biến trực tiếp.
-          </p>
         </div>
       </div>
 
@@ -287,7 +281,7 @@ function LoginPage({ onLogin }: { onLogin: () => void }) {
         <div className="w-full max-w-[400px]">
           <div className="mb-8">
             <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 24, fontWeight: 700, color: '#1565C0', letterSpacing: '-0.02em' }}>Y NHÃN</div>
-            <div className="text-slate-400 text-xs mt-0.5">Patient Monitoring System · by ViCare</div>
+            <div className="text-slate-400 text-xs mt-0.5">Patient Monitoring System · by VICARE</div>
             <h2 className="text-[26px] font-bold text-slate-800 mt-7" style={{ fontFamily: "'DM Sans',sans-serif" }}>Đăng nhập</h2>
             <p className="text-slate-500 text-sm mt-1">Vui lòng nhập thông tin tài khoản của bạn.</p>
           </div>
@@ -337,7 +331,7 @@ function LoginPage({ onLogin }: { onLogin: () => void }) {
             </button>
           </div>
 
-          <p className="text-center text-xs text-slate-400 mt-8">© 2026 ViCare. All rights reserved.</p>
+          <p className="text-center text-xs text-slate-400 mt-8">© 2026 VICARE. All rights reserved.</p>
         </div>
       </div>
     </div>
