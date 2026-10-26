@@ -366,6 +366,7 @@ button:focus-visible,input:focus-visible,summary:focus-visible { outline: 3px so
 .camera-mode-switch button.active { border-color: #147fb5; color: #147fb5; background: #edf7fc; }
 .videos.single { grid-template-columns: minmax(0,1fr); }
 .videos.single .video-card { min-width: 0; }
+@media (min-width: 681px) { .videos.single .video-card { width: min(100%, 62.5vh, 680px); margin-inline: auto; } }
 .video-card > div { aspect-ratio: 5 / 4; }
 .video-card video { object-fit: contain; }
 .more-profile { display: flex; align-items: center; gap: 12px; max-width: 650px; padding: 16px; box-sizing: border-box; }
